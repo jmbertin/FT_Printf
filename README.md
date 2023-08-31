@@ -1,5 +1,5 @@
 # FT_Printf
-FT_Printf is a project undertaken as part of the 42 school curriculum. It's an attempt to recreate the infamous printf function found in the C standard library, a function known for its versatility in handling string formatting. This version is a simplified take on it, named ft_printf.
+FT_Printf is a project undertaken as part of the 42 school curriculum. It's an attempt to recreate the famous printf function found in the C standard library, a function known for its versatility in handling string formatting. This version is a simplified take on it, named ft_printf.
 
 **Limitations**
 Only the mentioned format specifiers are supported.
@@ -38,6 +38,7 @@ Supports the following format specifiers:
 
 ## Usage
 Include ft_printf.h at the beginning of your source file:
+
 ``#include "ft_printf.h"``
 
 When compiling your project, link the library:
@@ -47,7 +48,9 @@ When compiling your project, link the library:
 Then, you can call the function ft_printf similarly to the standard printf.
 
 **Testing:**
+
 ``make test``
+
 Make a standard comparison between printf and ft_printf (display and return value).
 
 ----
